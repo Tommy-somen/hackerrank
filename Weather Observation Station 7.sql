@@ -1,1 +1,0 @@
-select distinct city from station where substr(city,length(city),length(city)) in ('a','i','u','e','o');
