@@ -16,7 +16,7 @@ import sys
 #
 
 def solve(meal_cost, tip_percent, tax_percent):
-    # Write your code here
+    print(round(meal_cost + (meal_cost*tip_percent/100) + (meal_cost*tax_percent/100)))
 
 if __name__ == '__main__':
     meal_cost = float(input().strip())
